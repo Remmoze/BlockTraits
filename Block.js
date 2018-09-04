@@ -17,6 +17,7 @@ class Block {
 			if(solid === undefined) continue;
 			return solid;
 		}
+		return false;
 	}
 
 	addTrait(trait){
